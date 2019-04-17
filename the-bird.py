@@ -1,14 +1,11 @@
-import signal
 from fbchat import Client
 import fbchat
 import time
 import os
-import signal
-import time
-import os
-import random
+
 
 print ("\033[1;36m")
+
 print (""" 
                      `.--:///+++++++///:--.`                     
                 `.-/+++++++++++++++++++++++++/-.`                
@@ -58,6 +55,7 @@ user= username
 password= password1
 client1=Client(user,password)
 os.system("clear")
+os.system("pip install fbchat;clear")
 print("Please Wait CONNECT TO Yehia hacker")
 time.sleep(1)
 uiid = idvictim
